@@ -1477,9 +1477,6 @@
    "name" : "_ZN7android6Parcel19writeFileDescriptorEib"
   },
   {
-   "name" : "_ZN7android6Parcel19writeInterfaceTokenEPKDsj"
-  },
-  {
    "name" : "_ZN7android6Parcel19writeInterfaceTokenERKNS_8String16E"
   },
   {
@@ -1718,28 +1715,16 @@
    "name" : "_ZN7android6binder6StatusC2EiiRKNS_7String8E"
   },
   {
+   "name" : "_ZN7android6binder8internal21ClientCounterCallback11tryShutdownEv"
+  },
+  {
    "name" : "_ZN7android6binder8internal21ClientCounterCallback12forcePersistEb"
   },
   {
    "name" : "_ZN7android6binder8internal21ClientCounterCallback15registerServiceERKNS_2spINS_7IBinderEEERKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEbi"
   },
   {
-   "name" : "_ZN7android6binder8internal21ClientCounterCallbackC1Ev"
-  },
-  {
-   "name" : "_ZN7android6binder8internal21ClientCounterCallbackC2Ev"
-  },
-  {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl11tryShutdownEv"
-  },
-  {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl12forcePersistEb"
-  },
-  {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl15registerServiceERKNS_2spINS_7IBinderEEERKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEEbi"
-  },
-  {
-   "name" : "_ZN7android6binder8internal25ClientCounterCallbackImpl9onClientsERKNS_2spINS_7IBinderEEEb"
+   "name" : "_ZN7android6binder8internal21ClientCounterCallback9onClientsERKNS_2spINS_7IBinderEEEb"
   },
   {
    "name" : "_ZN7android6binderlsERNSt3__118basic_stringstreamIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS0_6StatusE"
@@ -1752,9 +1737,6 @@
   },
   {
    "name" : "_ZN7android7BBinder11getDebugPidEv"
-  },
-  {
-   "name" : "_ZN7android7BBinder11isInheritRtEv"
   },
   {
    "name" : "_ZN7android7BBinder11linkToDeathERKNS_2spINS_7IBinder14DeathRecipientEEEPvj"
@@ -1773,9 +1755,6 @@
   },
   {
    "name" : "_ZN7android7BBinder12setExtensionERKNS_2spINS_7IBinderEEE"
-  },
-  {
-   "name" : "_ZN7android7BBinder12setInheritRtEb"
   },
   {
    "name" : "_ZN7android7BBinder13unlinkToDeathERKNS_2wpINS_7IBinder14DeathRecipientEEEPvjPS4_"
@@ -3236,7 +3215,7 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal25ClientCounterCallbackImpl7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE14__count_uniqueIS7_EEjRKT_"
+   "name" : "_ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal21ClientCounterCallback7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE14__count_uniqueIS7_EEjRKT_"
   },
   {
    "binding" : "weak",
@@ -3780,15 +3759,15 @@
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal25ClientCounterCallbackImpl7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISO_EERKT_"
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal21ClientCounterCallback7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISO_EERKT_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal25ClientCounterCallbackImpl7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSO_IJEEEEEENS_4pairINS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEEiEEbEERKT_DpOT0_"
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal21ClientCounterCallback7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSO_IJEEEEEENS_4pairINS_15__tree_iteratorISD_PNS_11__tree_nodeISD_PvEEiEEbEERKT_DpOT0_"
   },
   {
    "binding" : "weak",
-   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal25ClientCounterCallbackImpl7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE7destroyEPNS_11__tree_nodeISD_PvEE"
+   "name" : "_ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7android6binder8internal21ClientCounterCallback7ServiceEEENS_19__map_value_compareIS7_SD_NS_4lessIS7_EELb1EEENS5_ISD_EEE7destroyEPNS_11__tree_nodeISD_PvEE"
   },
   {
    "binding" : "weak",
@@ -4522,22 +4501,22 @@
    "name" : "_ZTCN7android2os17BpServiceCallbackE4_NS_9BpRefBaseE"
   },
   {
-   "name" : "_ZTCN7android6binder8internal25ClientCounterCallbackImplE0_NS_10IInterfaceE"
+   "name" : "_ZTCN7android6binder8internal21ClientCounterCallbackE0_NS_10IInterfaceE"
   },
   {
-   "name" : "_ZTCN7android6binder8internal25ClientCounterCallbackImplE0_NS_11BnInterfaceINS_2os15IClientCallbackEEE"
+   "name" : "_ZTCN7android6binder8internal21ClientCounterCallbackE0_NS_11BnInterfaceINS_2os15IClientCallbackEEE"
   },
   {
-   "name" : "_ZTCN7android6binder8internal25ClientCounterCallbackImplE0_NS_2os15IClientCallbackE"
+   "name" : "_ZTCN7android6binder8internal21ClientCounterCallbackE0_NS_2os15IClientCallbackE"
   },
   {
-   "name" : "_ZTCN7android6binder8internal25ClientCounterCallbackImplE0_NS_2os16BnClientCallbackE"
+   "name" : "_ZTCN7android6binder8internal21ClientCounterCallbackE0_NS_2os16BnClientCallbackE"
   },
   {
-   "name" : "_ZTCN7android6binder8internal25ClientCounterCallbackImplE4_NS_7BBinderE"
+   "name" : "_ZTCN7android6binder8internal21ClientCounterCallbackE4_NS_7BBinderE"
   },
   {
-   "name" : "_ZTCN7android6binder8internal25ClientCounterCallbackImplE4_NS_7IBinderE"
+   "name" : "_ZTCN7android6binder8internal21ClientCounterCallbackE4_NS_7IBinderE"
   },
   {
    "name" : "_ZTCN7android7BBinderE0_NS_7IBinderE"
@@ -4732,7 +4711,7 @@
    "name" : "_ZTTN7android2os17BpServiceCallbackE"
   },
   {
-   "name" : "_ZTTN7android6binder8internal25ClientCounterCallbackImplE"
+   "name" : "_ZTTN7android6binder8internal21ClientCounterCallbackE"
   },
   {
    "name" : "_ZTTN7android7BBinderE"
@@ -4929,7 +4908,7 @@
    "name" : "_ZTVN7android6VectorIiEE"
   },
   {
-   "name" : "_ZTVN7android6binder8internal25ClientCounterCallbackImplE"
+   "name" : "_ZTVN7android6binder8internal21ClientCounterCallbackE"
   },
   {
    "name" : "_ZTVN7android7BBinderE"
@@ -13101,25 +13080,6 @@
   },
   {
    "function_name" : "android::Parcel::writeInterfaceToken",
-   "linker_set_key" : "_ZN7android6Parcel19writeInterfaceTokenEPKDsj",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android6ParcelE"
-    },
-    {
-     "referenced_type" : "_ZTIPKDs"
-    },
-    {
-     "referenced_type" : "_ZTIj"
-    }
-   ],
-   "return_type" : "_ZTIi",
-   "source_file" : "/frameworks/native/libs/binder/include/binder/Parcel.h"
-  },
-  {
-   "function_name" : "android::Parcel::writeInterfaceToken",
    "linker_set_key" : "_ZN7android6Parcel19writeInterfaceTokenERKNS_8String16E",
    "parameters" :
    [
@@ -14463,19 +14423,6 @@
    "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
   },
   {
-   "function_name" : "android::BBinder::isInheritRt",
-   "linker_set_key" : "_ZN7android7BBinder11isInheritRtEv",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android7BBinderE"
-    }
-   ],
-   "return_type" : "_ZTIb",
-   "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
-  },
-  {
    "function_name" : "android::BBinder::linkToDeath",
    "linker_set_key" : "_ZN7android7BBinder11linkToDeathERKNS_2spINS_7IBinder14DeathRecipientEEEPvj",
    "parameters" :
@@ -14577,22 +14524,6 @@
     },
     {
      "referenced_type" : "_ZTIRKN7android2spINS_7IBinderEEE"
-    }
-   ],
-   "return_type" : "_ZTIv",
-   "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
-  },
-  {
-   "function_name" : "android::BBinder::setInheritRt",
-   "linker_set_key" : "_ZN7android7BBinder12setInheritRtEb",
-   "parameters" :
-   [
-    {
-     "is_this_ptr" : true,
-     "referenced_type" : "_ZTIPN7android7BBinderE"
-    },
-    {
-     "referenced_type" : "_ZTIb"
     }
    ],
    "return_type" : "_ZTIv",
@@ -15232,7 +15163,7 @@
      "referenced_type" : "_ZTIPN7android8BpBinderE"
     },
     {
-     "referenced_type" : "_ZTIRKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:/out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump"
+     "referenced_type" : "_ZTIRKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump"
     },
     {
      "default_arg" : true,
@@ -21771,8 +21702,8 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIRKN7android2spINS_7IBinder14DeathRecipientEEE",
    "name" : "const android::sp<android::IBinder::DeathRecipient> &",
-   "referenced_type" : "_ZTIKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:/out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump",
-   "self_type" : "_ZTIRKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:/out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump",
+   "referenced_type" : "_ZTIKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump",
+   "self_type" : "_ZTIRKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/RefBase.h"
   },
@@ -22615,15 +22546,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIRN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "name" : "android::sp<android::binder::internal::ClientCounterCallbackImpl> &",
-   "referenced_type" : "_ZTIN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "self_type" : "_ZTIRN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIRN7android2spINS_7BBinderEEE",
    "name" : "android::sp<android::BBinder> &",
    "referenced_type" : "_ZTIN7android2spINS_7BBinderEEE",
@@ -23383,15 +23305,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPKN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "name" : "const android::sp<android::binder::internal::ClientCounterCallbackImpl> *",
-   "referenced_type" : "_ZTIKN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "self_type" : "_ZTIPKN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android2spINS_7BBinderEEE",
    "name" : "const android::sp<android::BBinder> *",
    "referenced_type" : "_ZTIKN7android2spINS_7BBinderEEE",
@@ -23403,7 +23316,7 @@
    "alignment" : 4,
    "linker_set_key" : "_ZTIPKN7android2spINS_7IBinder14DeathRecipientEEE",
    "name" : "const android::sp<android::IBinder::DeathRecipient> *",
-   "referenced_type" : "_ZTIKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:/out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump",
+   "referenced_type" : "_ZTIKN7android2spINS_7IBinder14DeathRecipientEEE#ODR:out/soong/.intermediates/frameworks/native/libs/binder/libbinder/android_vendor.30_arm_armv8-a_shared/obj/frameworks/native/libs/binder/BpBinder.sdump",
    "self_type" : "_ZTIPKN7android2spINS_7IBinder14DeathRecipientEEE",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
@@ -24562,15 +24475,6 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "name" : "android::sp<android::binder::internal::ClientCounterCallbackImpl> *",
-   "referenced_type" : "_ZTIN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "self_type" : "_ZTIPN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
    "linker_set_key" : "_ZTIPN7android2spINS_7BBinderEEE",
    "name" : "android::sp<android::BBinder> *",
    "referenced_type" : "_ZTIN7android2spINS_7BBinderEEE",
@@ -24877,10 +24781,10 @@
   },
   {
    "alignment" : 4,
-   "linker_set_key" : "_ZTIPN7android6binder8internal25ClientCounterCallbackImplE",
-   "name" : "android::binder::internal::ClientCounterCallbackImpl *",
-   "referenced_type" : "_ZTIN7android6binder8internal25ClientCounterCallbackImplE",
-   "self_type" : "_ZTIPN7android6binder8internal25ClientCounterCallbackImplE",
+   "linker_set_key" : "_ZTIPN7android6binder8internal21ClientCounterCallbackE",
+   "name" : "android::binder::internal::ClientCounterCallback *",
+   "referenced_type" : "_ZTIN7android6binder8internal21ClientCounterCallbackE",
+   "self_type" : "_ZTIPN7android6binder8internal21ClientCounterCallbackE",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -26514,16 +26418,6 @@
    "name" : "const android::sp<android::Thread>",
    "referenced_type" : "_ZTIN7android2spINS_6ThreadEEE",
    "self_type" : "_ZTIKN7android2spINS_6ThreadEEE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
-  },
-  {
-   "alignment" : 4,
-   "is_const" : true,
-   "linker_set_key" : "_ZTIKN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "name" : "const android::sp<android::binder::internal::ClientCounterCallbackImpl>",
-   "referenced_type" : "_ZTIN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "self_type" : "_ZTIKN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
    "size" : 4,
    "source_file" : "/system/core/libutils/include/utils/StrongPointer.h"
   },
@@ -31801,68 +31695,62 @@
     },
     {
      "access" : "private",
-     "field_name" : "mWaitingForThreads",
+     "field_name" : "mMaxThreads",
      "field_offset" : 224,
      "referenced_type" : "_ZTIj"
     },
     {
      "access" : "private",
-     "field_name" : "mMaxThreads",
-     "field_offset" : 256,
-     "referenced_type" : "_ZTIj"
-    },
-    {
-     "access" : "private",
      "field_name" : "mStarvationStartTimeMs",
-     "field_offset" : 320,
+     "field_offset" : 256,
      "referenced_type" : "_ZTIx"
     },
     {
      "access" : "private",
      "field_name" : "mLock",
-     "field_offset" : 384,
+     "field_offset" : 320,
      "referenced_type" : "_ZTIN7android5MutexE"
     },
     {
      "access" : "private",
      "field_name" : "mHandleToObject",
-     "field_offset" : 416,
+     "field_offset" : 352,
      "referenced_type" : "_ZTIN7android6VectorINS_12ProcessState12handle_entryEEE"
     },
     {
      "access" : "private",
      "field_name" : "mBinderContextCheckFunc",
-     "field_offset" : 576,
+     "field_offset" : 512,
      "referenced_type" : "_ZTIPFbRKN7android8String16ERKNS_2spINS_7IBinderEEEPvE"
     },
     {
      "access" : "private",
      "field_name" : "mBinderContextUserData",
-     "field_offset" : 608,
+     "field_offset" : 544,
      "referenced_type" : "_ZTIPv"
     },
     {
      "access" : "private",
      "field_name" : "mRootDir",
-     "field_offset" : 640,
+     "field_offset" : 576,
      "referenced_type" : "_ZTIN7android7String8E"
     },
     {
      "access" : "private",
      "field_name" : "mThreadPoolStarted",
-     "field_offset" : 672,
+     "field_offset" : 608,
      "referenced_type" : "_ZTIb"
     },
     {
      "access" : "private",
      "field_name" : "mThreadPoolSeq",
-     "field_offset" : 704,
+     "field_offset" : 640,
      "referenced_type" : "_ZTIVi"
     },
     {
      "access" : "private",
      "field_name" : "mCallRestriction",
-     "field_offset" : 736,
+     "field_offset" : 672,
      "referenced_type" : "_ZTIN7android12ProcessState15CallRestrictionE"
     }
    ],
@@ -31871,12 +31759,12 @@
    "record_kind" : "class",
    "referenced_type" : "_ZTIN7android12ProcessStateE",
    "self_type" : "_ZTIN7android12ProcessStateE",
-   "size" : 104,
+   "size" : 96,
    "source_file" : "/frameworks/native/libs/binder/include/binder/ProcessState.h",
    "vtable_components" :
    [
     {
-     "component_value" : 96,
+     "component_value" : 88,
      "kind" : "vbase_offset"
     },
     {
@@ -31907,11 +31795,11 @@
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -96,
+     "component_value" : -88,
      "kind" : "vcall_offset"
     },
     {
-     "component_value" : -96,
+     "component_value" : -88,
      "kind" : "offset_to_top"
     },
     {
@@ -35453,25 +35341,6 @@
     {
      "access" : "private",
      "field_name" : "m_ptr",
-     "referenced_type" : "_ZTIPN7android6binder8internal25ClientCounterCallbackImplE"
-    }
-   ],
-   "linker_set_key" : "_ZTIN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "name" : "android::sp<android::binder::internal::ClientCounterCallbackImpl>",
-   "record_kind" : "class",
-   "referenced_type" : "_ZTIN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "self_type" : "_ZTIN7android2spINS_6binder8internal25ClientCounterCallbackImplEEE",
-   "size" : 4,
-   "source_file" : "/system/core/libutils/include/utils/StrongPointer.h",
-   "template_args" : [ "_ZTIN7android6binder8internal25ClientCounterCallbackImplE" ]
-  },
-  {
-   "alignment" : 4,
-   "fields" :
-   [
-    {
-     "access" : "private",
-     "field_name" : "m_ptr",
      "referenced_type" : "_ZTIPN7android7BBinderE"
     }
    ],
@@ -37053,7 +36922,7 @@
    ],
    "is_anonymous" : true,
    "linker_set_key" : "_ZTIN7android7BBinderUt_E",
-   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:121:5)",
+   "name" : "android::BBinder::(anonymous union at frameworks/native/libs/binder/include/binder/Binder.h:116:5)",
    "record_kind" : "union",
    "referenced_type" : "_ZTIN7android7BBinderUt_E",
    "self_type" : "_ZTIN7android7BBinderUt_E",
